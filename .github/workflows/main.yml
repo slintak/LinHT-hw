@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [ main, gh_actions ]
 jobs:
   build-web:
     runs-on: ubuntu-latest
